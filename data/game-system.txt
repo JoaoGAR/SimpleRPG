@@ -1,0 +1,115 @@
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+*Raças*
+{Elfos}
+Elfos são seres de uma raça mística com aparência humanóide geralmente belos(as). São mais altos e menos fortes, porém mais rápidos e habilidosos que os humanos. Há quem diga que são Semi-Deuses e Imortais.
+
+	->Elfos da Montanha (Distantes da sociedade, possuem reação negativa a qualquer um que não seja elfo. Possuem maior resistência que outros elfos.)
+		Os Elfos da montanha mantêm as crenças antigas, vivendo em uma sociedade sólida e rigorosa. Possuêm 3 castas importantes, 
+		os Sarcedotes (Que são o topo da sociedade élfica e vivem para manter os bons costumes élficos e a crensa nos Deuses), 
+		os Educadores (Que são Elfos que escolheram a vida de educar a todos, são geralmente filhos do meio de familias imfluêntes) e 
+		os Imfluêntes (Que são os responsaveis pela economia élfica, possuêm maior poder aquisitivo e só abaixam a cabeça para sacerdotes Elfos da Montanha)
+
+	->Elfos da Floresta (Foram os primeiros a manterem contatos com outras raças. Possuem ascendência sobre outras tipos de elfos pelo seu poder mágico e seu maior conhecimento. Possuem uma forte ligação com a natureza, mantendo uma dieta vegetariana.)
+		Os Elfos da Floresta vivêm em tribos espalhadas pela floresta sendo a maior delas "Vishar, a cidade Alta", chamada assim por ser formada por estruturas alojadas nos topos das árvores com pontes suspensas formando ruas. São de uma hierarquia tribal, onde, cada cidade possui um Chefe (O Elfo forte da tribo), um Xamã e um conselho formado por generais e chefes visitantes de outra tribo.
+
+	->Elfos da Cidade (São, muitas das vezes, frutos da relação de Humanos com Elfos. Conhecidos como Meio Elfo, não possuem afinidade com nenhum outra raça, por terem crescido nas grandes cidades humanas eles sofreram discriminação por parte dos Elfos e por parte dos Humanos, sendo uma raça totalmente marginalizada.)
+		Os Elfos da Cidade não possuem organização, são de sua grande maioria, empregados, pedintes, ladrões, contrabandistas e piratas.
+
+
+{Humanos}
+Humanos são a raça mais presente no planeta, com um impulso de conquista e conhecer novas terras. São adaptaveis à qualquer território e tem uma fome de poder que parece insaciável. Humanos possuêm várias crenças e religiões distintas. Sendo as mais conhecidas as com base em Creysio, um homem que dizia se comunicar com Deus, deixou alguns manuscritos e vários Humanos os interpretam de formas distintas.
+As diferentes interpreteções causam guerras entre os Humanos e acaba dizimando grandes cidades. As cidades humanas são conhecidas pelo caos e pelas grandes casas próximas do senado. A politica humana é simples, cada cidade possui distritos e cada distrito elege um representante que entre eles elege um Superintendente responsável pelas negociações com outras cidades.
+
+	->Creysionistas (Acreditam que Creysio foi o messias que anunciou o fim de uma era, contam os anos a partir da chegada de Creysio e ignoram tudo que aconteceu antes. São fanáticos ao extremo e não são de aceitar opiniões alheias. Por possuirem esse gênio forte, de natureza, são excelentes soldados que seguem as ordens de seus superiores sem questionar.)
+
+	->Antecreysion (Acreditam que Creysio veio para afirmar as antigas leis dos Deuses e o vêem apenas como um religioso, contam os anos a partir da criação do universo segundo Creysio, aceitam todos os deuses antigos e dão à Creysio o posto de braço direito de Deus. São mais mente aberta e aceitam inclusive o homossexualismo e o incesto, são vistos como bárbaros pelos Creysionistas e acabam travando as maiores batalhas da hitória, são ótimos em contar histórias sobre os tempos antigos e suas cidades são conhecidas pelos belos bordéis.)
+
+	->Uteistas (Acreditam no mundo dos espiritos, para eles Creysio era um vidente que conseguia se comunicar com os espíritos. São tranquilos e temem os espiritos, deixando oferendas e sempre pedindo permissão antes de entrar em algun local, seja ele sagrado ou não. São ótimos agricultores e exploradores, tem conhecimentos sobre as ervas e amam os animais, pois todo ser possui um espirito.)
+
+
+{Anões}
+Anões possuem baixa estatura e são mestres na arte da mineração e da forjaria. Geralmente são aliados dos humanos, mas não dos elfos. Embora usem outras armas, preferem machados e martelos em combate, causando grandes estragos em seu oponente. São impulsivos e beberrões. Quando esvaziam os barris de cerveja das tavernas, procuram briga, confusão, são espalhafatosos, ou simplesmente caem bêbados, roncando alto no chão. Frequentemente os anões possuem barba. A maioria possui uma pele escurecida pela fuligem das minas e seus cabelos e barba são negros. São dividos em cidades subterrâneas e possuem um livro chamado de "Codex" onde está escrita a historia dos mesmos e que é passado de rei para rei. O Codex contêm todas as regras de etiqueta e religiosas dos Anões, mas o rei pode editar o Codex à sua maneira, tornando o livro um material confuso de leitura e nada confiável.
+	
+	->Exilados (São anões que por algum motivo, foram expulsos das cidades subterrâneas. Vivem como comerciantes, mercenarios ou ladrões. A maioria simplesmente fugiu das guerras que assolam o subterrâneo e alguns fugiram de dividas adquiridas em jogos de azar.)
+
+	->Elite (São filhos de casas nobres, arrogantes e adoram contar vantagem, principalmente para Elfos. Aparecem pouco na superficie, mas quando aparecem estão vestindo armaduras deslumbrantes, com ouro e pedrarias.)
+
+	->Mineiros (A economia anã vem da mineração, todo anão, ou anã, trabalha nas minas, com algumas exceções. São resistentes e fortes, alguns até maiores que o anões comuns. Adoram seu trabalho, pois não tem outra escolha.)
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+*Atributos*
+{Força}
+	ok->Constituição: A {Constituição} é a sua quantidade de pontos de vida, quanto mais constituição, mais pontos de vida. Cada ponto gasto em {Constituição} gera 10 pontos de [Saúde].
+
+	ok->Vigor: {Vigor} é a sua capacidade de ficar de pé após um duro dia de [Trabalho] e até mesmo executar aquela determinada ação repetitiva sem cair. É indispensável sempre que for preciso empurrar ou infligir força em algo. O Vigor aumenta o dano com armas [Pesadas].
+
+	ok->Resistência: Um alto nível de {Resistência} torna fácil trabalhar em condições adversas. No duelo a Resistência ajuda a baixar o dano das armas de combate próximo.
+
+	ok->Aparência: A {Aparência} é a forma de como é visto pelos outros, quanto maior o nível mais confiança irá transmitir tal como mais medo aos seus inimigos. Num duelo a sua {Aparência} intimidará o outro e assim fará com que ele falhe as suas investidas.
+
+
+{Destreza}
+	ok->Mira: Quanto maior a sua {Mira} mais chances tem de acertar no seu alvo.
+
+	ok->Perícia: {Perícia} é essencial para todos aqueles trabalhos de concentração e minuciosidade e também aumenta seu dano com armas [Leves].
+
+	ok->Estratégia: As {Estratégias} permitem-lhe o pensamento estratégico e a execução dos seus planos. Num duelo as táticas permitem-lhe ganhar vantagem sobre o seu adversário iludindo seus ataques.
+
+	ok->Evasão: A {Evasão} é muito importante, quanto maior for, menor será a hipótese do inimigo lhe acertar.
+
+
+{Magia}
+	ok->Criatividade: A {Criatividade} influência sua atitude no campo, nunca ficando inteiramente vulnerável e te ajudando a fazer armadilhas, que é tão importante para apanhar animais ou pessoas.
+
+	ok->Natureza: É a sua ligação com o mundo, estudo de ervas medicinais ou venenosas.
+
+	ok->Inteligência: A {Inteligência} é a sua força mental, aumentando sua rama de magias e seu dano com armas [Magicas].
+
+	ok->Percepção: A {Percepção} é seu sexto sentido, você percebe quando vai ser atacado e pode tomar uma iniciativa de forma rápida. Também te ajuda a caçar e procurar por tesouros.
+
+
+{Carisma}
+	ok->Liderança: A {Liderança} é muito importante sempre que tenha de dar ordens, todos irão te respeitar.
+
+	ok->Empenho: {Empenho} é seu interesse em determinada tarefa, essencial para terefas demoradas e longas viagens.
+	
+	ok->Confiança: A {Confiança} é muito útil para as suas negociações e conseguir melhores preços. 
+
+	ok->Instinto Animal: O {Instinto Animal} ajuda-o a melhor compreender os animais e como lidar com eles.
+
+
+{Espiritualidade}
+	ok->Arcanismo: É o estudo do arcano, quanto mais conhecimentos adquirido, mais conhecimento pode ser passado.
+
+	ok->Liturgia: {Liturgia} é a sua ligação com o divino, ótimo para ações que precisam de serenidade e bom estado de espírito.
+
+	ok->Ocultismo: Sua ligação com o mundo dos mortos, te possibilita entrar em locais que outro ser humano jamais pensou estar.
+
+	ok->Disfarce: É a sua capacidade de se esconder, se camuflar nas sombras e até mesmo em locais abertos.
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+*Tipos de Armas*
+{Pesadas}
+	->Espadas Largas
+	->Machados
+	->2H Machados
+	->Escudos Pesados
+
+{Leves}
+	->Sabre
+	->Arco Longo
+	->Arco Rápido
+	->Adaga
+
+{Magicas}
+	->Cajado
+	->Cetro
+	->Varinha
+	->Orbe
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+*/

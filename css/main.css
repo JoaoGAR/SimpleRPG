@@ -1,0 +1,207 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: MedievalSharp;
+	color:#1c1814;
+}
+
+#margin-bottom {
+	margin-bottom: 3px;
+}
+
+.mapa {
+	width: 100%;
+	height: 82%;
+	background-image: url("/simpleRPG/images/mundo/world2.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.fundo-taberna {
+	background-image: url("/simpleRPG/images/backgrounds/bg-tavern-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.fundo-alquimia {
+	background-image: url("/simpleRPG/images/backgrounds/alquimia.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+}
+
+.fundo-madeira {
+	background-image: url("/simpleRPG/images/backgrounds/madeira1.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+}
+
+.fundo-papiro {
+	background-image: url("/simpleRPG/images/backgrounds/papiro.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+}
+
+.fundo-pergaminho-1 {
+	background-image: url("/simpleRPG/images/backgrounds/pergaminho.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.fundo-pergaminho-2 {
+	background-image: url("/simpleRPG/images/backgrounds/pergaminho2.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+}
+
+.fundo-inventario{
+	background-image: url("/simpleRPG/images/backgrounds/couro.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+}
+
+.btn {
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	border-radius: 2px;
+}
+
+.btn-warning {
+	background-color: #ffa500;
+}
+
+.menu-inicial {
+	width: 40%;
+	margin-top: 15%;
+	padding-bottom: 20px;
+	box-shadow: 6px 4px 4px 0px rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+}
+
+.text-danger {
+	text-shadow: 0px 0px #4f402f;
+}
+
+.formulario-cadastro {
+	background-position: center;
+}
+
+.formulario-cadastro .fundo-papiro {
+	margin-top: 110px;
+	border-radius: 20px;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	color:white;
+	text-shadow: 2px 0px #4f402f;
+}
+
+.formulario-cadastro .fundo-papiro .titulo {
+	border-bottom: 2px solid white;
+	margin-bottom: 20px;
+}
+
+.formulario-cadastro .fundo-papiro .corpo div {
+	margin-bottom: 15px;
+}
+
+.formulario-cadastro .fundo-papiro .corpo label {
+	font-size: 20px;
+}
+
+.criar-personagem {
+	padding: 20px;
+	min-height: 780px;
+}
+
+.input-group-addon {
+	width: 90px;
+}
+
+.escondido {
+	display: none;
+}
+
+.raca-descricao {
+	font-size: 17px;
+	text-shadow: 0px 0px #4f402f;
+	max-height: 150px;
+	overflow-y:scroll;
+	background-color: 
+}
+
+.racas > a {
+	color: #1c1814;
+	font-size: 20px;
+	margin: 10px;
+	text-shadow: 1px 1px #4f402f;
+}
+
+.vertente {
+	margin-top: 10px;
+}
+
+.vertente .titulo {
+	font-size: 18px;
+	text-shadow: 0px 0px #4f402f;
+}
+
+.barra-inferior {
+	position:absolute;
+	bottom: 0;
+	padding-top: 8px;
+	box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.quadrante {
+	display: none;
+}
+
+.primeiro-quadrante {
+	display: block;
+}
+
+.mini-map {
+	padding: 0;
+	border: 1px solid black;
+	border-radius: 2px;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	margin-top: 5px;
+}
+
+.status {
+	margin-top: 1px;
+}
+
+.inventario {
+	border-radius: 5px;
+	border: 3px outset #a59373;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	background-color: #2c221b;
+	opacity: 0.9;
+	padding-left: 80px;
+}
+
+.trabalhando {
+	margin-left:10px;
+	display:none;
+}
+
+.recompensa {
+	border-radius: 5px;
+	border: 3px dashed #5c3e25;
+	background-color: #f4c265;
+	color:black;
+	text-shadow: 0px 0px transparent;
+	padding-bottom: 5px; 
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	height: 210px;
+}
+
+.recompensa .titulo-r {
+	border-bottom: 1px solid black;
+}

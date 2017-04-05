@@ -1,0 +1,230 @@
+.heraldy {
+	margin-top: 5px;
+}
+
+.heraldy > img {
+	box-shadow: 6px 4px 4px 0px rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.vertentes-humanas .heraldy > img {
+	border: 4px outset #195585;
+}
+
+.vertentes-humanas .heraldy > img:hover {
+	border: 4px outset #37678d;
+}
+
+.vertentes-elficas .heraldy > img {
+	border: 4px outset #8aab38;
+}
+
+.vertentes-elficas .heraldy > img:hover {
+	border: 4px outset #a3d628;
+}
+
+.vertentes-anas .heraldy > img {
+	border: 4px outset #a94e4e;
+}
+
+.vertentes-anas .heraldy > img:hover {
+	border: 4px outset #db4949;
+}
+
+.elemento {
+	padding: 3px;
+	height: 45px;
+	width: 45px;
+	border-radius:5px;
+	position: fixed;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.trabalho {
+	padding: 3px;
+	height: 35px;
+	width: 35px;
+	border-radius:20px;
+	position: fixed;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.icone {
+	height: 50px;
+	width: 50px;
+	border-radius:15px;
+	outline: none;
+}
+
+.icone-inventario {
+	background-image: url("/simpleRPG/images/icones/inventario.png");
+	background-position: center;
+	background-size: 100% 100%;
+	margin-top: 3px;
+}
+
+.icone-talentos {
+	background-image: url("/simpleRPG/images/icones/talentos.png");
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+.icone-cla {
+	background-image: url("/simpleRPG/images/icones/cla.png");
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+.icone-saida {
+	background-image: url("/simpleRPG/images/icones/saida.png");
+	background-position: center;
+	background-size: 100% 100%;
+	border-radius:5px;
+}
+
+.progress-bar {
+	text-shadow: 1px 0px #4f402f;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	margin: 0;
+}
+
+.talentos {
+	margin-bottom: 10px; 
+}
+
+.talento-p > img {
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	border: 2px solid black;
+}
+
+.talentos-forca .talento-p > img {
+	background-color:#d82c2c;
+}
+
+.talentos-destreza .talento-p > img {
+	background-color:#2bab5f;
+}
+
+.talentos-magia .talento-p > img{
+	background-color:#337ab7;
+}
+
+.talentos-carisma .talento-p > img {
+	background-color:#fdb022;
+}
+
+.talentos-espiritualidade .talento-p > img {
+	background-color:#8b9094;
+}
+
+.talento-titulo {
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.talento-texto {
+	font-size: 15px;
+}
+
+.trabalho_texto {
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.qtd_ptsTalento {
+	margin: 0;
+	padding: 0;
+	margin-top: 2px;
+	text-shadow: 0px 0px white;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#qtd_ptsRequisitos {
+	background-color: transparent;
+	border:2px solid black;
+	color:black;
+}
+
+#qtd_ptsPossuidos {
+	background-color: transparent;
+	border:2px solid green;
+	color:green;
+}
+
+.min {
+	height: 30px;
+	width: 30px;
+	border-radius:20px;
+	position: fixed;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+}
+
+.pessoas {
+	background-color: #d4a95b;
+	border: 2px outset #b69049;
+}
+
+.voce {
+	padding: 7px;
+	background-color: #f64242;
+	border: 2px outset #925050;
+}
+
+.slot {
+	border-radius: 5px;
+	border: 3px outset #616358;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	background-color: black;
+	opacity: 0.8;
+	margin: 2px;
+	height: 89px;
+}
+
+.equipado-cabeca {
+	padding: 5px;
+	height: 140px;
+	margin-left: 155px;
+}
+
+.equipado-pes {
+	padding: 5px;
+	height: 140px;
+	margin-left: 155px;
+}
+
+.equipado-peito {
+	height: 210px;
+	padding: 5px;
+}
+
+.equipado-p-mao {
+	height: 210px;
+}
+
+.equipado-s-mao {
+	height: 210px;
+}
+
+.trabalho_fila {
+	height: 150px;
+	padding-top: 30px;
+	background-color: #d5c085;
+	border: 2px outset #8d6340;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-top: 5px;
+	box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.6);
+	cursor: pointer;
+}
+
+.trabalho_fila :hover {
+	border: 1px outset transparent;
+}
+
+
+
